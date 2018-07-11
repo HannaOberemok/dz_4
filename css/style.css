@@ -1,0 +1,92 @@
+.wrapper {
+    width: 1366px;
+    height: 1500px;
+    margin: 100px auto;
+}
+
+.redblock {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background: red;
+    top: 100px;
+    left: 100px;
+}
+.redblock:hover{
+    z-index: 2;
+}
+
+.graycircle {
+    width: 130px;
+    height: 130px;
+    background: gray;
+    border-radius: 50%;
+    position: absolute;
+    top: 240px;
+    left: 240px;
+}
+
+.greenblock {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background: lawngreen;
+    top: 140px;
+    left: 415px;
+}
+.greenblock:hover {
+    z-index: 2;
+}
+
+.blueblock {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background: mediumblue;
+    top: 410px;
+    left: 90px;
+}
+
+.blueblock:hover{
+    z-index: 2;
+}
+
+.yellowblock {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background: yellow;
+    top: 455px;
+    left: 445px;
+}
+.menu-btn {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    top: 240px;
+    left: 240px;
+}
+
+.menu-btn span {
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 70px;
+    height: 10px;
+    margin-bottom: 10px;
+    background: black;
+    position: absolute;
+    transition: all .5s;
+    transform: translateX(-35px) rotate(45deg);
+}
+
+.menu-btn span:last-child {
+    transform: translateX(-35px) rotate(-45deg);
+}
+
+.menu-btn span:last-child {
+    margin-bottom: 0;
+}
+.menu-btn span:nth-child(2) {
+    display: none;
+}
